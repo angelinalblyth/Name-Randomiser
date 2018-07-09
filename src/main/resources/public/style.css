@@ -18,8 +18,8 @@ header{
 }
 p{
     font-size: 1.5em;
-    /*margin-top: 3em;*/
-    /*margin-left: 2em;*/
+    margin-top: 3em;
+    margin-left: 2em;
 }
 
 .selectednName{
@@ -42,4 +42,9 @@ form{
 input{
     background-color: #456990;
     color: white;
+}
+
+table.center {
+    margin-left:auto;
+    margin-right:auto;
 }
