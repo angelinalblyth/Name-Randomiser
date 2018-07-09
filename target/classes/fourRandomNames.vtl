@@ -1,6 +1,6 @@
-
-
-<p>Name randomly selected is: $student.getName()</p>
+#foreach ($student in $fourStudents)
+<p>$student.getName()</p>
+#end
 
 <form class="button-forms" method ="get" action="/random">
     <input type="submit" value="Back to Generator"/>
