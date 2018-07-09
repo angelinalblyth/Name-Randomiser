@@ -1,6 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
+    background-color: #E4FDE1;
 }
 
 .container {
@@ -17,8 +18,12 @@ header{
 }
 p{
     font-size: 1.5em;
-    margin-top: 3em;
-    margin-left: 2em;
+    /*margin-top: 3em;*/
+    /*margin-left: 2em;*/
+}
+
+.selectednName{
+    text-align: center;
 }
 
 form{
@@ -30,5 +35,11 @@ form{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-items: center;
+    justify-content: center;
+
+}
+
+input{
+    background-color: #456990;
+    color: white;
 }

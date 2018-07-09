@@ -1,7 +1,32 @@
-#foreach ($student in $threeStudents)
-<p>$student.getName()</p>
-#end
 
-<form class="button-forms" method ="get" action="/random">
-    <input type="submit" value="Back to Generator"/>
-</form>
+
+<table>
+
+    #foreach ($student in $threeStudents)
+    <tr>
+
+        <td>$student.getName()</td>
+    </tr>
+    #end
+
+</table>
+
+
+<div class = "buttons">
+
+    <form class="button-forms" method ="get" action="/random">
+        <input type="submit" value="Back to Generator"/>
+    </form>
+    <form class="button-forms" method ="get" action="/random/one">
+        <input type="submit" value="Pick a Random Name"/>
+    </form>
+
+    <form class="button-forms" method ="get" action="/random/two">
+        <input type="submit" value="Pick Two Random Name's"/>
+    </form>
+
+
+    <form class="button-forms" method ="get" action="/random/four">
+        <input type="submit" value="Pick Four Random Name's"/>
+    </form>
+</div>

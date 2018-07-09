@@ -1,7 +1,21 @@
 
+<header>Selected one random name</header>
 
-<p>Name randomly selected is: $student.getName()</p>
+<p class="selectednName">$student.getName()</p>
 
+<div class = "buttons">
 <form class="button-forms" method ="get" action="/random">
     <input type="submit" value="Back to Generator"/>
 </form>
+    <form class="button-forms" method ="get" action="/random/two">
+        <input type="submit" value="Pick Two Random Name's"/>
+    </form>
+
+    <form class="button-forms" method ="get" action="/random/three">
+        <input type="submit" value="Pick Three Random Name's"/>
+    </form>
+
+    <form class="button-forms" method ="get" action="/random/four">
+        <input type="submit" value="Pick Four Random Name's"/>
+    </form>
+</div>
